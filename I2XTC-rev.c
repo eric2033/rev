@@ -220,7 +220,7 @@ int main(int argc, char **argv)
 				break;
 			}
 		}
-		mvprintw(0, 0, "Delay: %d samples  Amplitude: %.2fx \n ", data.delay, data.amplitude_scale);
+		mvprintw(0, 0, "Delay: %d fftbins  Amplitude: %.2fx \n ", data.delay, data.amplitude_scale);
 	}
 
 	//end curses
