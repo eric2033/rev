@@ -8,4 +8,4 @@ dependencies:
 
 With loudspeakers and/or studio monitors, this effect can cause the stereo image to be localized in a small area in front of the listener.
 
-With headphones on, this effect can cause the stereo image to be further internalized in your head as opposed to a normal headphone listening experience.
+With headphones on, this effect can cause the stereo image to be further internalized inside your head as opposed to a normal headphone listening experience.
