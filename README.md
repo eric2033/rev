@@ -5,6 +5,7 @@ dependencies:
 - FFTW
 - portaudio
 - libsndfile
+- inputlib
 
 With loudspeakers and/or studio monitors (crosstalk cancellation), this effect can cause the stereo image to be localized in a small area in front of the listener.
 
