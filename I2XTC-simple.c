@@ -202,7 +202,7 @@ int main(int argc, char **argv)
 	char ch;
 	ch = '\0';
 
-	mvprintw(0, 0, "Delay: %d samples  Amplitude: %.2fx \n \n[a/z] increases/decreases delay\n"\
+	mvprintw(0, 0, "Delay: %d fftbins  Amplitude: %.2fx \n \n[a/z] increases/decreases effect\n"\
 		"[k/m] increases/decreases amplitude scaling \n"\
 		"[q] to quit \n", data.delay, data.amplitude_scale);
 
@@ -240,7 +240,7 @@ int main(int argc, char **argv)
 				break;
 			}
 		}
-		mvprintw(0, 0, "Delay: %d samples  Amplitude: %.2fx \n ", data.delay, data.amplitude_scale);
+		mvprintw(0, 0, "Delay: %d fftbins  Amplitude: %.2fx \n ", data.delay, data.amplitude_scale);
 	}
 
 	//end curses
